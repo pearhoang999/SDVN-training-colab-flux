@@ -54,12 +54,12 @@ config:
         width: 1820
         height: 1024
         prompts:
-          - "[trigger], girl portrait, smile"
+          - "The image depicts a cozy, warmly lit café interior on a snowy evening, exuding a sense of tranquility and charm. The café features a rustic wooden design with soft yellow lighting from chandeliers and hanging lamps, creating an inviting atmosphere. Large glass windows reveal a serene winter landscape with bare trees and softly glowing lights in the distance, complementing the cozy interior. A polished wooden counter is adorned with various items, including coffee jars, filters, and a professional espresso machine, while a bar area with stools offers patrons a perfect spot to enjoy the snowy view. In the foreground, a small round table is set with two coffee cups, a candle, a folded blanket on a wooden chair, and a centerpiece featuring flowers and pinecones. The décor includes chalkboard menus, a "Jazz Café" poster with a piano-themed design, and shelves filled with jars, cups, plates, and decorative items. Scattered throughout are candles, open books, pancakes, pastries, and nuts, adding warmth and detail to the space. The thoughtful arrangement of natural accents, such as pinecones and fresh flowers, enhances the inviting atmosphere, making it an ideal setting for a relaxing winter evening"
         neg: "" 
         seed: 42
         walk_seed: true
         guidance_scale: 3.5 
-        sample_steps: 20
+        sample_steps: 28
 meta:
   name: "lora_name"
   version: '1.0'
