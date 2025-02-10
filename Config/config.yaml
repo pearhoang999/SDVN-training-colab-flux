@@ -35,8 +35,8 @@ config:
         lr: 4e-4
         lr_scheduler: "cosine"
         lr_scheduler_params:
-          total_iters: 4000  
-          eta_min: 4e-5      
+          total_iters: 6000  
+          eta_min: 2e-5      
         ema_config:
           use_ema: true
           ema_decay: 0.99
