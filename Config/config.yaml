@@ -53,8 +53,7 @@ config:
         sample_every: 350
         width: 1820
         height: 1024
-        prompts:
-          - "[trigger], girl portrait, smile"
+        prompts: ""
         neg: "" 
         seed: 42
         walk_seed: true
