@@ -35,5 +35,6 @@ peft
 gradio
 python-slugify
 opencv-python
+pytorch-wavelets==1.3.0
 OpenAI
 google-genai
