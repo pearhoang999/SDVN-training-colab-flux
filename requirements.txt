@@ -36,3 +36,4 @@ python-slugify
 OpenAI
 google-genai
 wandb
+numpy
