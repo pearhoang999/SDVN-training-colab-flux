@@ -33,11 +33,11 @@ config:
         noise_scheduler: "flowmatch"
         optimizer: "adamw8bit"
         lr: 4e-4
-        lr_scheduler: "cosine"
+        lr_scheduler: "cosine_with_restarts"
         lr_scheduler_params:
-          total_iters: 6000
-          eta_min: 2e-5
-          num_warmup_steps: 500
+          total_iters: 1000   # Chu kỳ đầu tiên (T_0 = 1000 bước)
+          T_mult: 2           # Chu kỳ sau dài gấp đôi chu kỳ trước (1000 → 2000 → 4000)
+          eta_min: 2e-5       # Learning rate tối thiểu
         loss_type: "wavelet"
         ema_config:
           use_ema: true
