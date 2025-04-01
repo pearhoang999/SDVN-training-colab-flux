@@ -36,3 +36,4 @@ python-slugify
 opencv-python
 OpenAI
 google-genai
+numpy==1.24.3
